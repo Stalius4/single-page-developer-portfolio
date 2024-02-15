@@ -1,8 +1,9 @@
 
-.contactMe{
-    color: aliceblue;
+.contact-container{
+    color: var(--white);
     padding: 39px 165px ;
     overflow: hidden; 
+    
 }
 
 nav{
@@ -15,16 +16,11 @@ nav{
 .name-logo{
     font-weight: bold;
     font-size: 32px;
-    font-family: "Space Grotesk", sans-serif;
-}
-
-.logo{
-    height: 24px;
-    width: 24.61px;
-   
 
 }
-ul{
+
+
+.social-icons{
     display: flex;
     width: 192.49px;
     justify-content: space-between;
@@ -47,17 +43,18 @@ position: relative;
     position: relative;
  
 }
-.hero{
+.greeting-portrait{
     display: flex;
     z-index: 1;
-   
+   padding-bottom: 104px;
+   border-bottom: solid 1px white;
     justify-content: space-between;
 }
 
-h1{
+.left-description h1{
     font-weight: bold;
     font-size: 88px;
-    font-family: "Space Grotesk", sans-serif;
+
     margin-right: -90px;
     letter-spacing:-2.5px;
 }
@@ -72,20 +69,19 @@ h1{
     bottom: 5px; 
     width: 100%; 
     height: 6px; 
-    background-color: #4EE1A0;
+    background-color: var(--green);
     z-index: -1;
 
 }
 .description{
     width:445px ;
-    font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
 }
 
 .contact{
     font-weight: bold;
     font-size: 16px;
-    font-family: "Space Grotesk", sans-serif;
+
     position: relative;
     letter-spacing:2.29px;
 }
@@ -97,7 +93,7 @@ h1{
     bottom: -5px; 
     width: 120px; 
     height: 2px; 
-    background-color: #4EE1A0;
+    background-color: var(--green);
 }
 .circle{
     position: relative;
@@ -111,5 +107,5 @@ h1{
     position: relative;
     left: -270px;
     z-index: 0;
-   top:-610px;
+   top:-715px;
 }
