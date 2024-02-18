@@ -1,0 +1,39 @@
+
+
+.experience-outer{
+    margin: -30px 165px 0px 165px;
+    padding-top: 65px;
+    border-top: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    overflow: hidden; 
+
+
+}
+.name-year-box{
+    font-weight: bold;
+    word-spacing: -1.5px;
+    width: 345px;
+    height: 98px;
+
+  
+}
+.exp-name{
+    font-size: 48px;
+    margin: 0;
+    letter-spacing:-2.5px;
+   
+}
+.name-year-box p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing:0.5px
+}
+
+.exp-ring-patern{
+    position: relative;
+    bottom: 150px;
+    left: 920px;
+}
