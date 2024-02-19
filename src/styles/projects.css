@@ -10,4 +10,64 @@
 .projects-outer h1 {
     font-size: 88px;
     letter-spacing: -2.5px;
+    margin: 0px;
+    padding-bottom: 65px;
+}
+
+.top-projects-contactMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-projects-contactMe button {
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    letter-spacing:2.29px;
+    border:none;
+    background: none;
+    color:white;
+    padding: 0px;
+}
+.top-projects-contactMe button::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 70px; 
+    width: 126px; 
+    height: 2px; 
+    background-color: var(--green);
+}
+
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 70px;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.project-container img{
+    width: 540px;
+    height: 400px;
+
+}
+
+.project-name{
+    font-weight: bold;
+    font-size: 24px;
+    height: 32px;
+    padding-top: 20px;
+}
+
+.project-languages{
+    font-weight: medium;
+    font-size:18px;
+    height: 28px;
+    padding-top: 10px;
 }

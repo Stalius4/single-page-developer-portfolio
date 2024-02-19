@@ -90,7 +90,7 @@ li{
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px; 
+    bottom: -10px; 
     width: 126px; 
     height: 2px; 
     background-color: var(--green);
@@ -110,3 +110,4 @@ li{
     z-index: 0;
     top:-600px;
 }
+
