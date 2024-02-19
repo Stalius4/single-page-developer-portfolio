@@ -32,7 +32,7 @@ function ContactMe() {
         <section className="left-description">
           <h1>Nice to meet you!<br></br>I'm <span className="underline">Adam Keyes.</span></h1>
           <p className="description">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-          <p className="contact">CONTACT ME</p>
+          <button className="contact">CONTACT ME</button>
           <img className="circle" src={circle} alt="circle"/>
         </section>
 

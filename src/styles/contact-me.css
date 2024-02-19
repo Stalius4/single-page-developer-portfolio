@@ -79,6 +79,11 @@ li{
     font-size: 16px;
     position: relative;
     letter-spacing:2.29px;
+    border:none;
+    background: none;
+    color:white;
+    padding: 0px;
+    top: -60px;
 }
 
 .contact::after{
@@ -86,15 +91,16 @@ li{
     position: absolute;
     left: 0;
     bottom: -5px; 
-    width: 120px; 
+    width: 126px; 
     height: 2px; 
     background-color: var(--green);
 }
 .circle{
     position: relative;
-    right: -600px;
-    top:-70px;
+    right: -470px;
+    top:-20px;
     z-index: 1;
+    
     
 }
 

@@ -1,0 +1,13 @@
+
+
+
+.projects-outer{
+    margin: 0px 165px 0px 165px;
+    /* border: white 1px  solid; */
+    height: 1767px;
+}
+
+.projects-outer h1 {
+    font-size: 88px;
+    letter-spacing: -2.5px;
+}
