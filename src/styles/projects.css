@@ -52,11 +52,12 @@
 
 
 }
-.project-container img{
+.project-container-img{
     width: 540px;
     height: 400px;
 
 }
+
 
 .project-name{
     font-weight: bold;
@@ -70,4 +71,77 @@
     font-size:18px;
     height: 28px;
     padding-top: 10px;
+}
+
+.hidden-content-outer{
+    position: relative;
+    top: -490px;
+    display: none;
+
+}
+
+.hidden-content-inner{
+    display:flex;
+    flex-direction: column;
+    width: 540px;
+    height: 400px;
+    justify-content:center;
+    text-align: center;
+    gap: 60px;
+    cursor: pointer;
+   
+}
+.show-content-inner{
+    display: block;
+    position: absolute;
+    width: 540px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+.view-project-btn{
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    letter-spacing:2.29px;
+    border:none;
+    background: none;
+    color:white;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+
+.view-project-btn::after{
+    content: "";
+    position: absolute;
+    right:197px;
+    bottom: -10px; 
+    width: 148px; 
+    height: 2px; 
+    background-color: var(--green);
+}
+
+
+.view-code-btn{
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    letter-spacing:2.29px;
+    border:none;
+    background: none;
+    color:white;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.view-code-btn::after{
+    content: "";
+    position: absolute;
+    right:215px;
+    bottom: -10px; 
+    width: 110px; 
+    height: 2px; 
+    background-color: var(--green);
 }
