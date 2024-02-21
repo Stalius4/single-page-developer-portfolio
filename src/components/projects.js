@@ -5,11 +5,11 @@ import project3 from "../assets/images/thumbnail-project-3-large.webp"
 import project4 from "../assets/images/thumbnail-project-4-large.webp"
 import project5 from "../assets/images/thumbnail-project-5-large.webp"
 import project6 from "../assets/images/thumbnail-project-6-large.webp"
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 function Projects() {
   const [isHovered, setIsHovered] = useState({
     project1:false,
-    project2: false,
+    project2:false,
     project3:false,
     project4:false,
     project5:false,
@@ -27,6 +27,27 @@ function Projects() {
       console.log(isHovered)
     
   };
+
+
+  // change everything to false when scrolling mouse
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsHovered({
+        project1: false,
+        project2: false,
+        project3: false,
+        project4: false,
+        project5: false,
+        project6: false
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
 
@@ -54,12 +75,6 @@ function Projects() {
             </div>
           </div>
         </div>
-
-
-
-
-
-
         <div className="project-container">
           <img src={project2} alt="project2" onMouseOver={(e)=>handleMouseOver(2)} className="project-img"/>
           <div className="project-name">E-LEARNING LANDING PAGE</div>
