@@ -52,7 +52,7 @@
 
 
 }
-.project-container-img{
+.project-img{
     width: 540px;
     height: 400px;
 
@@ -73,7 +73,7 @@
     padding-top: 10px;
 }
 
-.hidden-content-outer{
+.hide-content-outer{
     position: relative;
     top: -490px;
     display: none;
@@ -91,7 +91,7 @@
     cursor: pointer;
    
 }
-.show-content-inner{
+.show-content-outer{
     display: block;
     position: absolute;
     width: 540px;
