@@ -18,13 +18,11 @@ function Projects() {
 
   const handleMouseOver = (e) => {
     setIsHovered({...isHovered, [`project${e}`]: true});
-    console.log(isHovered);
   };
 
   const handleMouseOut = (e) => {
    
       setIsHovered({...isHovered, [`project${e}`]: false})
-      console.log(isHovered)
     
   };
 
