@@ -145,3 +145,10 @@
     height: 2px; 
     background-color: var(--green);
 }
+
+.view-code-btn:hover{
+color:var(--green)
+}
+.view-project-btn:hover{
+    color:var(--green)
+    }
