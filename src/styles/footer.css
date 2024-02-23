@@ -1,26 +1,19 @@
 
 
-.footer-outer{
+.footer{
     background-color: var(--dark-grey);
-    width: 1449px;
+    max-width: 1449px;
     height: 675px;
     margin-top: 30px;
-   
-}
-
-.footer-inner{
-    padding: 165px;
+    padding: 84px 0px  28px 165px;
     display: flex;
+    gap:220px;
 }
 
-.footer-inner h1{
-    font-size: 88px;
-    letter-spacing: -2.5px;
-}
 
-.footer-inner p{
-    font-size: 18px;
-   line-height: 28px;
-   font-weight: medium;
-   width: 445px;
+.footer__description{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    gap: 36px;
 }

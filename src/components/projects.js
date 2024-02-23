@@ -28,24 +28,30 @@ function Projects() {
 
 
   // change everything to false when scrolling mouse
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsHovered({
-        project1: false,
-        project2: false,
-        project3: false,
-        project4: false,
-        project5: false,
-        project6: false
-      });
-    };
+/**
+ * A hook that adds an event listener for scroll and removes it on cleanup.
+ */
+useEffect(() => {
+  /**
+   * Handles the scroll event by setting all project hover states to false.
+   */
+  const handleScroll = () => {
+    setIsHovered({
+      project1: false,
+      project2: false,
+      project3: false,
+      project4: false,
+      project5: false,
+      project6: false
+    });
+  };
 
-    window.addEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
 
 
 
@@ -53,7 +59,7 @@ function Projects() {
     <section className="projects-outer" >
         <section className="top-projects-contactMe"     
 >
-          <h1>Projects</h1>
+          <h1 className="title heading-XL">Projects</h1>
           <button >CONTACT ME</button>
         </section>
       <div className="project-cards">

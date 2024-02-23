@@ -1,5 +1,5 @@
 
-import "../styles/contact-me.css"
+import "../styles/profile.css"
 import gitLogo  from "../assets/images/icon-github.svg"
 import frontMentorLogo from "../assets/images/icon-frontend-mentor.svg"
 import linkedInLogo from "../assets/images/icon-linkedin.svg"
@@ -12,25 +12,25 @@ import rings from "../assets/images/pattern-rings.svg"
 
 
 
-function ContactMe() {
+function Profile() {
 
 
 
 
   return (
-  <div className="contact-container">
-      <nav>
+  <div className="profile">
+      <nav className="profile__nav">
           <div className="name-logo">adamkeyes</div>
             <ul className="social-icons">
-              <li><img className="logo" src={gitLogo} alt="GitHub "/></li>
-              <li><img className="logo" src={frontMentorLogo} alt="Frontend Mentor "/></li>
+              <li><img className="logo" src={gitLogo} alt="GitHub"/></li>
+              <li><img className="logo" src={frontMentorLogo} alt="Frontend Mentor"/></li>
               <li><img className="logo" src={linkedInLogo} alt="linkedIn"/></li>
               <li><img className="logo" src={twitter} alt="Twitter"/></li>
             </ul>
       </nav>
       <div className="greeting-portrait">
         <section className="left-description">
-          <h1>Nice to meet you!<br></br>I'm <span className="underline">Adam Keyes.</span></h1>
+          <h1 className="greeting heading-XL">Nice to meet you!<br></br>I'm <span className="underline">Adam Keyes.</span></h1>
           <p className="description">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
           <button className="contact">CONTACT ME</button>
           <img className="circle" src={circle} alt="circle"/>
@@ -45,4 +45,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+export default Profile;

@@ -23,3 +23,19 @@ color: #ffffff;
     margin: 0 auto;
 }
 
+.heading-XL{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin: 0px;
+}
+
+.text-L{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px;
+}

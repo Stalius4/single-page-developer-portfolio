@@ -7,9 +7,7 @@
     height: 1767px;
 }
 
-.projects-outer h1 {
-    font-size: 88px;
-    letter-spacing: -2.5px;
+.title {
     margin: 0px;
     padding-bottom: 65px;
 }

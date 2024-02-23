@@ -1,14 +1,14 @@
 
 import './styles/global.css';
 
-import ContactMe from './components/contact-me';
+import Profile from './components/profile';
 import Experience from './components/experience';
 import Projects from './components/projects';
 import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
-<ContactMe></ContactMe>
+<Profile></Profile>
 <Experience></Experience>
 <Projects></Projects>
 <Footer></Footer>
